@@ -39,8 +39,8 @@
             this.bt_ex_4_4 = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.bt_ex_4_5 = new System.Windows.Forms.Button();
             this.bt_ex_4_6 = new System.Windows.Forms.Button();
@@ -49,8 +49,8 @@
             this.bt_ex_4_9 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -159,10 +159,22 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(86, 235);
+            this.tabPage1.Size = new System.Drawing.Size(86, 443);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Chapter3";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Controls.Add(this.bt_ex_3_2);
+            this.flowLayoutPanel1.Controls.Add(this.bt_ex_3_3);
+            this.flowLayoutPanel1.Controls.Add(this.bt_ex_3_4);
+            this.flowLayoutPanel1.Controls.Add(this.bt_ex_3_5);
+            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 3);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(80, 437);
+            this.flowLayoutPanel1.TabIndex = 0;
             // 
             // tabPage2
             // 
@@ -174,18 +186,6 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Chapter4";
             this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.Controls.Add(this.bt_ex_3_2);
-            this.flowLayoutPanel1.Controls.Add(this.bt_ex_3_3);
-            this.flowLayoutPanel1.Controls.Add(this.bt_ex_3_4);
-            this.flowLayoutPanel1.Controls.Add(this.bt_ex_3_5);
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 3);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(80, 229);
-            this.flowLayoutPanel1.TabIndex = 0;
             // 
             // flowLayoutPanel2
             // 
@@ -233,6 +233,7 @@
             this.bt_ex_4_7.TabIndex = 10;
             this.bt_ex_4_7.Text = "4.7";
             this.bt_ex_4_7.UseVisualStyleBackColor = true;
+            this.bt_ex_4_7.Click += new System.EventHandler(this.bt_ex_4_7_Click);
             // 
             // bt_ex_4_8
             // 
@@ -264,8 +265,8 @@
             this.Text = "DemoCenter";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
-            this.tabPage2.ResumeLayout(false);
             this.flowLayoutPanel1.ResumeLayout(false);
+            this.tabPage2.ResumeLayout(false);
             this.flowLayoutPanel2.ResumeLayout(false);
             this.ResumeLayout(false);
 

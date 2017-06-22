@@ -204,5 +204,24 @@ namespace Test
 
             }
         }
+
+        private void bt_ex_4_7_Click(object sender, EventArgs e)
+        {
+            using (F0407 f = new F0407())
+            {
+                f.TopMost = false;
+                f.TopLevel = false;
+                this.panel1.Controls.Add(f);
+                f.Show();
+
+                f.InitializeGraphics();
+                while (f.Created)
+                {
+                    f.Render();
+                    Application.DoEvents();
+                }
+
+            }
+        }
     }
 }
