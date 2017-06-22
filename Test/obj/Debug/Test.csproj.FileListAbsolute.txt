@@ -26,3 +26,4 @@ D:\Projects\D3D_CSharp\D3D_CSharp\Test\obj\Debug\Test.exe
 D:\Projects\D3D_CSharp\D3D_CSharp\Test\obj\Debug\Test.pdb
 D:\Projects\D3D_CSharp\D3D_CSharp\Test\obj\Debug\Test.DemoCenter.resources
 D:\Projects\D3D_CSharp\D3D_CSharp\Test\obj\Debug\Test.F0302.resources
+D:\Projects\D3D_CSharp\D3D_CSharp\Test\obj\Debug\Test.F0402.resources
