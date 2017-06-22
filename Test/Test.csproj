@@ -108,6 +108,66 @@
     <Compile Include="F0304.Designer.cs">
       <DependentUpon>F0304.cs</DependentUpon>
     </Compile>
+    <Compile Include="F0305.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F0305.Designer.cs">
+      <DependentUpon>F0305.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F0401.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F0401.Designer.cs">
+      <DependentUpon>F0401.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F0402.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F0402.Designer.cs">
+      <DependentUpon>F0402.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F0403.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F0403.Designer.cs">
+      <DependentUpon>F0403.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F0404.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F0404.Designer.cs">
+      <DependentUpon>F0404.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F0405.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F0405.Designer.cs">
+      <DependentUpon>F0405.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F0406.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F0406.Designer.cs">
+      <DependentUpon>F0406.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F0407.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F0407.Designer.cs">
+      <DependentUpon>F0407.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F0408.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F0408.Designer.cs">
+      <DependentUpon>F0408.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F0409.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F0409.Designer.cs">
+      <DependentUpon>F0409.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="DemoCenter.resx">
@@ -115,6 +175,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="F0302.resx">
       <DependentUpon>F0302.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F0402.resx">
+      <DependentUpon>F0402.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

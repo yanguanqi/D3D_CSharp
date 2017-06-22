@@ -71,5 +71,138 @@ namespace Test
 
             }
         }
+
+        private void bt_ex_3_5_Click(object sender, EventArgs e)
+        {
+            using (F0305 f = new F0305())
+            {
+                f.TopMost = false;
+                f.TopLevel = false;
+                this.panel1.Controls.Add(f);
+                f.Show();
+
+                f.InitializeGraphics();
+                while (f.Created)
+                {
+                    f.Render();
+                    Application.DoEvents();
+                }
+
+            }
+        }
+
+        private void bt_ex_4_1_Click(object sender, EventArgs e)
+        {
+            using (F0401 f = new F0401())
+            {
+                f.TopMost = false;
+                f.TopLevel = false;
+                this.panel1.Controls.Add(f);
+                f.Show();
+
+                f.InitializeGraphics();
+                while (f.Created)
+                {
+                    f.Render();
+                    Application.DoEvents();
+                }
+
+            }
+        }
+
+        private void bt_ex_4_2_Click(object sender, EventArgs e)
+        {
+            using (F0402 f = new F0402())
+            {
+                f.TopMost = false;
+                f.TopLevel = false;
+                this.panel1.Controls.Add(f);
+                f.Show();
+
+                f.InitializeGraphics();
+                while (f.Created)
+                {
+                    f.Render();
+                    Application.DoEvents();
+                }
+
+            }
+        }
+
+        private void bt_ex_4_3_Click(object sender, EventArgs e)
+        {
+            using (F0403 f = new F0403())
+            {
+                f.TopMost = false;
+                f.TopLevel = false;
+                this.panel1.Controls.Add(f);
+                f.Show();
+
+                f.InitializeGraphics();
+                while (f.Created)
+                {
+                    f.Render();
+                    Application.DoEvents();
+                }
+
+            }
+        }
+
+        private void bt_ex_4_4_Click(object sender, EventArgs e)
+        {
+            using (F0404 f = new F0404())
+            {
+                f.TopMost = false;
+                f.TopLevel = false;
+                this.panel1.Controls.Add(f);
+                f.Show();
+
+                f.InitializeGraphics();
+                while (f.Created)
+                {
+                    f.Render();
+                    Application.DoEvents();
+                }
+
+            }
+        }
+
+        private void bt_ex_4_5_Click(object sender, EventArgs e)
+        {
+            using (F0405 f = new F0405())
+            {
+                f.TopMost = false;
+                f.TopLevel = false;
+                this.panel1.Controls.Add(f);
+                f.Show();
+
+                f.InitializeGraphics();
+                while (f.Created)
+                {
+                    f.Render();
+                    Application.DoEvents();
+                }
+
+            }
+        }
+
+        private void bt_ex_4_6_Click(object sender, EventArgs e)
+        {
+            using (F0406 f = new F0406())
+            {
+                f.TopMost = false;
+                f.TopLevel = false;
+                this.panel1.Controls.Add(f);
+                f.Show();
+
+                f.InitializeGraphics();
+                while (f.Created)
+                {
+                    f.Render();
+                    Application.DoEvents();
+                }
+
+            }
+        }
     }
 }
