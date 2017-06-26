@@ -38,7 +38,7 @@ namespace Test
                 presentParams.EnableAutoDepthStencil = true;
                 presentParams.AutoDepthStencilFormat = DepthFormat.D16;
                 device = new Device(0, DeviceType.Hardware, this, CreateFlags.SoftwareVertexProcessing, presentParams);
-                device.DeviceReset += Device_DeviceReset;
+                device.DeviceReset += OnResetDevice;
                 this.OnCreateDevice(device, null);
                 this.OnResetDevice(device, null);
             }
@@ -48,11 +48,6 @@ namespace Test
                 return false;
             }
             return true;
-        }
-
-        private void Device_DeviceReset(object sender, EventArgs e)
-        {
-            
         }
         public void OnResetDevice(object sender,EventArgs e)
         {

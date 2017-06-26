@@ -223,5 +223,157 @@ namespace Test
 
             }
         }
+
+        private void bt_ex_4_8_Click(object sender, EventArgs e)
+        {
+            using (F0408 f = new F0408())
+            {
+                f.TopMost = false;
+                f.TopLevel = false;
+                this.panel1.Controls.Add(f);
+                f.Show();
+
+                f.InitializeGraphics();
+                while (f.Created)
+                {
+                    f.Render();
+                    Application.DoEvents();
+                }
+
+            }
+        }
+
+        private void bt_ex_4_9_Click(object sender, EventArgs e)
+        {
+            using (F0409 f = new F0409())
+            {
+                f.TopMost = false;
+                f.TopLevel = false;
+                this.panel1.Controls.Add(f);
+                f.Show();
+
+                f.InitializeGraphics();
+                while (f.Created)
+                {
+                    f.Render();
+                    Application.DoEvents();
+                }
+
+            }
+        }
+
+        private void bt_ex_5_1_Click(object sender, EventArgs e)
+        {
+            using (F0501 f = new F0501())
+            {
+                f.TopMost = false;
+                f.TopLevel = false;
+                this.panel1.Controls.Add(f);
+                f.Show();
+
+                f.InitializeGraphics();
+                while (f.Created)
+                {
+                    f.Render();
+                    Application.DoEvents();
+                }
+
+            }
+        }
+
+        private void bt_ex_5_2_Click(object sender, EventArgs e)
+        {
+            using (F0502 f = new F0502())
+            {
+                f.TopMost = false;
+                f.TopLevel = false;
+                this.panel1.Controls.Add(f);
+                f.Show();
+
+                f.InitializeGraphics();
+                while (f.Created)
+                {
+                    f.Render();
+                    Application.DoEvents();
+                }
+
+            }
+        }
+
+        private void bt_ex_5_3_Click(object sender, EventArgs e)
+        {
+            using (F0503 f = new F0503())
+            {
+                f.TopMost = false;
+                f.TopLevel = false;
+                this.panel1.Controls.Add(f);
+                f.Show();
+
+                f.InitializeGraphics();
+                while (f.Created)
+                {
+                    f.Render();
+                    Application.DoEvents();
+                }
+
+            }
+        }
+
+        private void bt_ex_5_4_Click(object sender, EventArgs e)
+        {
+            using (F0504 f = new F0504())
+            {
+                f.TopMost = false;
+                f.TopLevel = false;
+                this.panel1.Controls.Add(f);
+                f.Show();
+
+                f.InitializeGraphics();
+                while (f.Created)
+                {
+                    f.Render();
+                    Application.DoEvents();
+                }
+
+            }
+        }
+
+        private void bt_ex_5_5_Click(object sender, EventArgs e)
+        {
+            using (F0505 f = new F0505())
+            {
+                f.TopMost = false;
+                f.TopLevel = false;
+                this.panel1.Controls.Add(f);
+                f.Show();
+
+                f.InitializeGraphics();
+                while (f.Created)
+                {
+                    f.Render();
+                    Application.DoEvents();
+                }
+
+            }
+        }
+
+        private void bt_ex_5_6_Click(object sender, EventArgs e)
+        {
+            using (F0506 f = new F0506())
+            {
+                f.TopMost = false;
+                f.TopLevel = false;
+                this.panel1.Controls.Add(f);
+                f.Show();
+
+                f.InitializeGraphics();
+                while (f.Created)
+                {
+                    f.Render();
+                    Application.DoEvents();
+                }
+
+            }
+        }
     }
 }

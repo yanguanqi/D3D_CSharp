@@ -168,6 +168,42 @@
     <Compile Include="F0409.Designer.cs">
       <DependentUpon>F0409.cs</DependentUpon>
     </Compile>
+    <Compile Include="F0501.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F0501.Designer.cs">
+      <DependentUpon>F0501.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F0502.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F0502.Designer.cs">
+      <DependentUpon>F0502.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F0503.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F0503.Designer.cs">
+      <DependentUpon>F0503.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F0504.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F0504.Designer.cs">
+      <DependentUpon>F0504.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F0505.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F0505.Designer.cs">
+      <DependentUpon>F0505.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F0506.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F0506.Designer.cs">
+      <DependentUpon>F0506.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="DemoCenter.resx">
