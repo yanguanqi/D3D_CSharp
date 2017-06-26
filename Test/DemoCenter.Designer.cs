@@ -68,6 +68,16 @@
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
+            this.bt_ex_6_1 = new System.Windows.Forms.Button();
+            this.bt_ex_6_2 = new System.Windows.Forms.Button();
+            this.bt_ex_6_3 = new System.Windows.Forms.Button();
+            this.bt_ex_6_4 = new System.Windows.Forms.Button();
+            this.bt_ex_6_5 = new System.Windows.Forms.Button();
+            this.bt_ex_6_6 = new System.Windows.Forms.Button();
+            this.bt_ex_6_7 = new System.Windows.Forms.Button();
+            this.bt_ex_6_8 = new System.Windows.Forms.Button();
+            this.bt_ex_6_9 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
@@ -75,6 +85,8 @@
             this.flowLayoutPanel2.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.flowLayoutPanel3.SuspendLayout();
+            this.tabPage4.SuspendLayout();
+            this.flowLayoutPanel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // bt_ex_3_2
@@ -388,6 +400,7 @@
             this.bt_ex_5_7.TabIndex = 10;
             this.bt_ex_5_7.Text = "5.7";
             this.bt_ex_5_7.UseVisualStyleBackColor = true;
+            this.bt_ex_5_7.Click += new System.EventHandler(this.bt_ex_5_7_Click);
             // 
             // bt_ex_5_8
             // 
@@ -397,6 +410,7 @@
             this.bt_ex_5_8.TabIndex = 11;
             this.bt_ex_5_8.Text = "5.8";
             this.bt_ex_5_8.UseVisualStyleBackColor = true;
+            this.bt_ex_5_8.Click += new System.EventHandler(this.bt_ex_5_8_Click);
             // 
             // bt_ex_5_9
             // 
@@ -406,6 +420,7 @@
             this.bt_ex_5_9.TabIndex = 12;
             this.bt_ex_5_9.Text = "5.9";
             this.bt_ex_5_9.UseVisualStyleBackColor = true;
+            this.bt_ex_5_9.Click += new System.EventHandler(this.bt_ex_5_9_Click);
             // 
             // bt_ex_5_10
             // 
@@ -415,6 +430,7 @@
             this.bt_ex_5_10.TabIndex = 13;
             this.bt_ex_5_10.Text = "5.10";
             this.bt_ex_5_10.UseVisualStyleBackColor = true;
+            this.bt_ex_5_10.Click += new System.EventHandler(this.bt_ex_5_10_Click);
             // 
             // bt_ex_5_11
             // 
@@ -424,6 +440,7 @@
             this.bt_ex_5_11.TabIndex = 14;
             this.bt_ex_5_11.Text = "5.11";
             this.bt_ex_5_11.UseVisualStyleBackColor = true;
+            this.bt_ex_5_11.Click += new System.EventHandler(this.bt_ex_5_11_Click);
             // 
             // bt_ex_5_12
             // 
@@ -433,6 +450,7 @@
             this.bt_ex_5_12.TabIndex = 15;
             this.bt_ex_5_12.Text = "5.12";
             this.bt_ex_5_12.UseVisualStyleBackColor = true;
+            this.bt_ex_5_12.Click += new System.EventHandler(this.bt_ex_5_12_Click);
             // 
             // bt_ex_5_13
             // 
@@ -442,6 +460,7 @@
             this.bt_ex_5_13.TabIndex = 16;
             this.bt_ex_5_13.Text = "5.13";
             this.bt_ex_5_13.UseVisualStyleBackColor = true;
+            this.bt_ex_5_13.Click += new System.EventHandler(this.bt_ex_5_13_Click);
             // 
             // bt_ex_5_14
             // 
@@ -451,9 +470,11 @@
             this.bt_ex_5_14.TabIndex = 17;
             this.bt_ex_5_14.Text = "5.14";
             this.bt_ex_5_14.UseVisualStyleBackColor = true;
+            this.bt_ex_5_14.Click += new System.EventHandler(this.bt_ex_5_14_Click);
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.flowLayoutPanel4);
             this.tabPage4.Location = new System.Drawing.Point(40, 4);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Size = new System.Drawing.Size(89, 461);
@@ -497,6 +518,108 @@
             this.tabPage8.Text = "Chapter10";
             this.tabPage8.UseVisualStyleBackColor = true;
             // 
+            // flowLayoutPanel4
+            // 
+            this.flowLayoutPanel4.AutoScroll = true;
+            this.flowLayoutPanel4.Controls.Add(this.bt_ex_6_1);
+            this.flowLayoutPanel4.Controls.Add(this.bt_ex_6_2);
+            this.flowLayoutPanel4.Controls.Add(this.bt_ex_6_3);
+            this.flowLayoutPanel4.Controls.Add(this.bt_ex_6_4);
+            this.flowLayoutPanel4.Controls.Add(this.bt_ex_6_5);
+            this.flowLayoutPanel4.Controls.Add(this.bt_ex_6_6);
+            this.flowLayoutPanel4.Controls.Add(this.bt_ex_6_7);
+            this.flowLayoutPanel4.Controls.Add(this.bt_ex_6_8);
+            this.flowLayoutPanel4.Controls.Add(this.bt_ex_6_9);
+            this.flowLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel4.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel4.Name = "flowLayoutPanel4";
+            this.flowLayoutPanel4.Size = new System.Drawing.Size(89, 461);
+            this.flowLayoutPanel4.TabIndex = 2;
+            // 
+            // bt_ex_6_1
+            // 
+            this.bt_ex_6_1.Location = new System.Drawing.Point(3, 3);
+            this.bt_ex_6_1.Name = "bt_ex_6_1";
+            this.bt_ex_6_1.Size = new System.Drawing.Size(75, 23);
+            this.bt_ex_6_1.TabIndex = 4;
+            this.bt_ex_6_1.Text = "6.1";
+            this.bt_ex_6_1.UseVisualStyleBackColor = true;
+            this.bt_ex_6_1.Click += new System.EventHandler(this.bt_ex_6_1_Click);
+            // 
+            // bt_ex_6_2
+            // 
+            this.bt_ex_6_2.Location = new System.Drawing.Point(3, 32);
+            this.bt_ex_6_2.Name = "bt_ex_6_2";
+            this.bt_ex_6_2.Size = new System.Drawing.Size(75, 23);
+            this.bt_ex_6_2.TabIndex = 5;
+            this.bt_ex_6_2.Text = "6.2";
+            this.bt_ex_6_2.UseVisualStyleBackColor = true;
+            this.bt_ex_6_2.Click += new System.EventHandler(this.bt_ex_6_2_Click);
+            // 
+            // bt_ex_6_3
+            // 
+            this.bt_ex_6_3.Location = new System.Drawing.Point(3, 61);
+            this.bt_ex_6_3.Name = "bt_ex_6_3";
+            this.bt_ex_6_3.Size = new System.Drawing.Size(75, 23);
+            this.bt_ex_6_3.TabIndex = 6;
+            this.bt_ex_6_3.Text = "6.3";
+            this.bt_ex_6_3.UseVisualStyleBackColor = true;
+            this.bt_ex_6_3.Click += new System.EventHandler(this.bt_ex_6_3_Click);
+            // 
+            // bt_ex_6_4
+            // 
+            this.bt_ex_6_4.Location = new System.Drawing.Point(3, 90);
+            this.bt_ex_6_4.Name = "bt_ex_6_4";
+            this.bt_ex_6_4.Size = new System.Drawing.Size(75, 23);
+            this.bt_ex_6_4.TabIndex = 7;
+            this.bt_ex_6_4.Text = "6.4";
+            this.bt_ex_6_4.UseVisualStyleBackColor = true;
+            // 
+            // bt_ex_6_5
+            // 
+            this.bt_ex_6_5.Location = new System.Drawing.Point(3, 119);
+            this.bt_ex_6_5.Name = "bt_ex_6_5";
+            this.bt_ex_6_5.Size = new System.Drawing.Size(75, 23);
+            this.bt_ex_6_5.TabIndex = 8;
+            this.bt_ex_6_5.Text = "6.5";
+            this.bt_ex_6_5.UseVisualStyleBackColor = true;
+            // 
+            // bt_ex_6_6
+            // 
+            this.bt_ex_6_6.Location = new System.Drawing.Point(3, 148);
+            this.bt_ex_6_6.Name = "bt_ex_6_6";
+            this.bt_ex_6_6.Size = new System.Drawing.Size(75, 23);
+            this.bt_ex_6_6.TabIndex = 9;
+            this.bt_ex_6_6.Text = "6.6";
+            this.bt_ex_6_6.UseVisualStyleBackColor = true;
+            // 
+            // bt_ex_6_7
+            // 
+            this.bt_ex_6_7.Location = new System.Drawing.Point(3, 177);
+            this.bt_ex_6_7.Name = "bt_ex_6_7";
+            this.bt_ex_6_7.Size = new System.Drawing.Size(75, 23);
+            this.bt_ex_6_7.TabIndex = 10;
+            this.bt_ex_6_7.Text = "6.7";
+            this.bt_ex_6_7.UseVisualStyleBackColor = true;
+            // 
+            // bt_ex_6_8
+            // 
+            this.bt_ex_6_8.Location = new System.Drawing.Point(3, 206);
+            this.bt_ex_6_8.Name = "bt_ex_6_8";
+            this.bt_ex_6_8.Size = new System.Drawing.Size(75, 23);
+            this.bt_ex_6_8.TabIndex = 11;
+            this.bt_ex_6_8.Text = "6.8";
+            this.bt_ex_6_8.UseVisualStyleBackColor = true;
+            // 
+            // bt_ex_6_9
+            // 
+            this.bt_ex_6_9.Location = new System.Drawing.Point(3, 235);
+            this.bt_ex_6_9.Name = "bt_ex_6_9";
+            this.bt_ex_6_9.Size = new System.Drawing.Size(75, 23);
+            this.bt_ex_6_9.TabIndex = 12;
+            this.bt_ex_6_9.Text = "6.9";
+            this.bt_ex_6_9.UseVisualStyleBackColor = true;
+            // 
             // DemoCenter
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -514,6 +637,8 @@
             this.flowLayoutPanel2.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
             this.flowLayoutPanel3.ResumeLayout(false);
+            this.tabPage4.ResumeLayout(false);
+            this.flowLayoutPanel4.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -559,5 +684,15 @@
         private System.Windows.Forms.TabPage tabPage6;
         private System.Windows.Forms.TabPage tabPage7;
         private System.Windows.Forms.TabPage tabPage8;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel4;
+        private System.Windows.Forms.Button bt_ex_6_1;
+        private System.Windows.Forms.Button bt_ex_6_2;
+        private System.Windows.Forms.Button bt_ex_6_3;
+        private System.Windows.Forms.Button bt_ex_6_4;
+        private System.Windows.Forms.Button bt_ex_6_5;
+        private System.Windows.Forms.Button bt_ex_6_6;
+        private System.Windows.Forms.Button bt_ex_6_7;
+        private System.Windows.Forms.Button bt_ex_6_8;
+        private System.Windows.Forms.Button bt_ex_6_9;
     }
 }

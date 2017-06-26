@@ -84,135 +84,207 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chapter6\F0601.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter6\F0601.Designer.cs">
+      <DependentUpon>F0601.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter6\F0602.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter6\F0602.Designer.cs">
+      <DependentUpon>F0602.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter6\F0603.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter6\F0603.Designer.cs">
+      <DependentUpon>F0603.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter6\F0604.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter6\F0604.Designer.cs">
+      <DependentUpon>F0604.cs</DependentUpon>
+    </Compile>
     <Compile Include="DemoCenter.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DemoCenter.Designer.cs">
       <DependentUpon>DemoCenter.cs</DependentUpon>
     </Compile>
-    <Compile Include="F0302.cs">
+    <Compile Include="Chapter3\F0302.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="F0302.Designer.cs">
+    <Compile Include="Chapter3\F0302.Designer.cs">
       <DependentUpon>F0302.cs</DependentUpon>
     </Compile>
-    <Compile Include="F0303.cs">
+    <Compile Include="Chapter3\F0303.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="F0303.Designer.cs">
+    <Compile Include="Chapter3\F0303.Designer.cs">
       <DependentUpon>F0303.cs</DependentUpon>
     </Compile>
-    <Compile Include="F0304.cs">
+    <Compile Include="Chapter3\F0304.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="F0304.Designer.cs">
+    <Compile Include="Chapter3\F0304.Designer.cs">
       <DependentUpon>F0304.cs</DependentUpon>
     </Compile>
-    <Compile Include="F0305.cs">
+    <Compile Include="Chapter3\F0305.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="F0305.Designer.cs">
+    <Compile Include="Chapter3\F0305.Designer.cs">
       <DependentUpon>F0305.cs</DependentUpon>
     </Compile>
-    <Compile Include="F0401.cs">
+    <Compile Include="Chapter4\F0401.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="F0401.Designer.cs">
+    <Compile Include="Chapter4\F0401.Designer.cs">
       <DependentUpon>F0401.cs</DependentUpon>
     </Compile>
-    <Compile Include="F0402.cs">
+    <Compile Include="Chapter4\F0402.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="F0402.Designer.cs">
+    <Compile Include="Chapter4\F0402.Designer.cs">
       <DependentUpon>F0402.cs</DependentUpon>
     </Compile>
-    <Compile Include="F0403.cs">
+    <Compile Include="Chapter4\F0403.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="F0403.Designer.cs">
+    <Compile Include="Chapter4\F0403.Designer.cs">
       <DependentUpon>F0403.cs</DependentUpon>
     </Compile>
-    <Compile Include="F0404.cs">
+    <Compile Include="Chapter4\F0404.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="F0404.Designer.cs">
+    <Compile Include="Chapter4\F0404.Designer.cs">
       <DependentUpon>F0404.cs</DependentUpon>
     </Compile>
-    <Compile Include="F0405.cs">
+    <Compile Include="Chapter4\F0405.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="F0405.Designer.cs">
+    <Compile Include="Chapter4\F0405.Designer.cs">
       <DependentUpon>F0405.cs</DependentUpon>
     </Compile>
-    <Compile Include="F0406.cs">
+    <Compile Include="Chapter4\F0406.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="F0406.Designer.cs">
+    <Compile Include="Chapter4\F0406.Designer.cs">
       <DependentUpon>F0406.cs</DependentUpon>
     </Compile>
-    <Compile Include="F0407.cs">
+    <Compile Include="Chapter4\F0407.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="F0407.Designer.cs">
+    <Compile Include="Chapter4\F0407.Designer.cs">
       <DependentUpon>F0407.cs</DependentUpon>
     </Compile>
-    <Compile Include="F0408.cs">
+    <Compile Include="Chapter4\F0408.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="F0408.Designer.cs">
+    <Compile Include="Chapter4\F0408.Designer.cs">
       <DependentUpon>F0408.cs</DependentUpon>
     </Compile>
-    <Compile Include="F0409.cs">
+    <Compile Include="Chapter4\F0409.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="F0409.Designer.cs">
+    <Compile Include="Chapter4\F0409.Designer.cs">
       <DependentUpon>F0409.cs</DependentUpon>
     </Compile>
-    <Compile Include="F0501.cs">
+    <Compile Include="Chapter5\F0501.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="F0501.Designer.cs">
+    <Compile Include="Chapter5\F0501.Designer.cs">
       <DependentUpon>F0501.cs</DependentUpon>
     </Compile>
-    <Compile Include="F0502.cs">
+    <Compile Include="Chapter5\F0502.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="F0502.Designer.cs">
+    <Compile Include="Chapter5\F0502.Designer.cs">
       <DependentUpon>F0502.cs</DependentUpon>
     </Compile>
-    <Compile Include="F0503.cs">
+    <Compile Include="Chapter5\F0503.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="F0503.Designer.cs">
+    <Compile Include="Chapter5\F0503.Designer.cs">
       <DependentUpon>F0503.cs</DependentUpon>
     </Compile>
-    <Compile Include="F0504.cs">
+    <Compile Include="Chapter5\F0504.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="F0504.Designer.cs">
+    <Compile Include="Chapter5\F0504.Designer.cs">
       <DependentUpon>F0504.cs</DependentUpon>
     </Compile>
-    <Compile Include="F0505.cs">
+    <Compile Include="Chapter5\F0505.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="F0505.Designer.cs">
+    <Compile Include="Chapter5\F0505.Designer.cs">
       <DependentUpon>F0505.cs</DependentUpon>
     </Compile>
-    <Compile Include="F0506.cs">
+    <Compile Include="Chapter5\F0506.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="F0506.Designer.cs">
+    <Compile Include="Chapter5\F0506.Designer.cs">
       <DependentUpon>F0506.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter5\F0507.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter5\F0507.Designer.cs">
+      <DependentUpon>F0507.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter5\F0508.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter5\F0508.Designer.cs">
+      <DependentUpon>F0508.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter5\F0509.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter5\F0509.Designer.cs">
+      <DependentUpon>F0509.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter5\F0510.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter5\F0510.Designer.cs">
+      <DependentUpon>F0510.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter5\F0511.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter5\F0511.Designer.cs">
+      <DependentUpon>F0511.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter5\F0512.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter5\F0512.Designer.cs">
+      <DependentUpon>F0512.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter5\F0513.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter5\F0513.Designer.cs">
+      <DependentUpon>F0513.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter5\F0514.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter5\F0514.Designer.cs">
+      <DependentUpon>F0514.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="DemoCenter.resx">
       <DependentUpon>DemoCenter.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="F0302.resx">
+    <EmbeddedResource Include="Chapter3\F0302.resx">
       <DependentUpon>F0302.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="F0402.resx">
+    <EmbeddedResource Include="Chapter4\F0402.resx">
       <DependentUpon>F0402.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -238,5 +310,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
